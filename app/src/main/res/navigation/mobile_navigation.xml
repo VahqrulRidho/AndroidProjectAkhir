@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.projectapppembelajaran.ui.home.HomeFragment"
+        android:label="Praktikum Pemograman Bergerak"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.projectapppembelajaran.ui.dashboard.DashboardFragment"
+        android:label="Modul Pembelajaram"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_vidio"
+        android:name="com.example.projectapppembelajaran.ui.vidio.VidioFragment"
+        android:label="Vidio Pembelajaran"
+        tools:layout="@layout/fragment_vidio" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.projectapppembelajaran.ui.notifications.NotificationsFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_notifications" />
+</navigation>
